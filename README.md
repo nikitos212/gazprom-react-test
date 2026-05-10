@@ -88,16 +88,23 @@ npm install
 npm run dev
 ```
 
-После запуска Vite покажет локальный адрес:
-
-```bash
-http://localhost:5173
-```
 
 ## Сборка
 
 ```bash
 npm run build
+```
+
+## Деплой
+
+Деплой настроен через GitHub Actions: при каждом push в ветку `main` проект собирается и публикуется на GitHub Pages.
+
+Workflow: `.github/workflows/deploy.yml`
+
+Адрес после успешного деплоя:
+
+```bash
+https://nikitos212.github.io/gazprom-react-test/
 ```
 
 ## Как пользоваться
